@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(icono.jpg);
+    margin: 0;
+    background-size: cover;
+    
+   .container{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .btn{
+      padding: 12px 24px
+      border: 2px solid #3498bd;
+      border-radius: 8px;
+      background-color: #3498bd;
+      color: #fff;
+      font-size: 16px;
+      cursor: progress;
+  }
+  .btn:hover{
+      background-color: #094f7e;
+  }
+  .btn:active{
+      transform: scale(0.95);
+      transition: transform 0.2s ease;
+  }
+      
+  }
+  h1{
+      text-align: center;
+      color: aliceblue;
+      font-size: clamp(1.5rem, 4vw, 3rem);
+  }
